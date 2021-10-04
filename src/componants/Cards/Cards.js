@@ -1,12 +1,12 @@
 import React from 'react';
 import { Row, Col, Card } from 'react-bootstrap';
- 
+
 const Cards = (props) => {
     const { picture, instructor_name, details, course_name, subject } = props.courses
     return (
-        <div>
- 
- 
+        <div className="card">
+
+
             <Col>
                 <Card>
                     <Card.Img variant="top" src={picture} />
@@ -18,11 +18,11 @@ const Cards = (props) => {
                     </Card.Body>
                 </Card>
             </Col>
- 
- 
+
+
         </div>
     );
 };
- 
+
 export default Cards;
 
