@@ -34,8 +34,6 @@ const Founder = () => {
                 </div>
             </div>
         </div>
-    );
-};
-
-export default Founder;
+jkhsdgjhs
+    export default Founder;
 
