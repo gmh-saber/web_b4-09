@@ -23,11 +23,11 @@ const Home = () => {
                         alt="First slide"
                         width="1500px"
                         height="800px"
-                         
+
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>First slide </h3>
+                        <p>Our first slide.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -40,8 +40,8 @@ const Home = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Second slide </h3>
+                        <p>Our second slide.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -54,8 +54,8 @@ const Home = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Third slide label</h3>
+                        <p>Our first slide.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -73,7 +73,7 @@ const Home = () => {
             </div >
             <Link to="/service">
                 <Button variant="warning" >
-                     See more
+                    See more
                 </Button>
             </Link>
         </div>

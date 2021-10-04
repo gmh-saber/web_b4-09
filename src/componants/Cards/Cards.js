@@ -1,10 +1,10 @@
 import React from 'react';
 import { Row, Col, Card } from 'react-bootstrap';
-
+import '../Cards/Cards.css';
 const Cards = (props) => {
     const { picture, instructor_name, details, course_name, subject } = props.courses
     return (
-        <div className="card">
+        <div className="card-hover col-12">
 
 
             <Col>
@@ -25,4 +25,3 @@ const Cards = (props) => {
 };
 
 export default Cards;
-
