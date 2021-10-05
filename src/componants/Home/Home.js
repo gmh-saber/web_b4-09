@@ -15,11 +15,11 @@ const Home = () => {
     }, [])
     return (
         <div>
-            <Carousel fade interval={1500}>
-                <Carousel.Item>
+            <Carousel fade interval={1000}>
+                <Carousel.Item className="bg-primary">
                     <img
                         className="d-block mx-auto"
-                        src="/coaching.jpg"
+                        src="/bro2.svg"
                         alt="First slide"
                         width="1500px"
                         height="800px"
@@ -30,10 +30,10 @@ const Home = () => {
                         <p>Our first slide.</p>
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item className="bg-primary">
                     <img
                         className="d-block mx-auto"
-                        src="/confused.jpg"
+                        src="/webinar.svg"
                         alt="second slide"
                         width="1500px"
                         height="800px"
@@ -44,10 +44,10 @@ const Home = () => {
                         <p>Our second slide.</p>
                     </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item className="bg-primary">
                     <img
                         className="d-block mx-auto"
-                        src="/learn.jpg"
+                        src="/imotic.svg"
                         alt="third slide"
                         width="1500px"
                         height="800px"
@@ -72,7 +72,7 @@ const Home = () => {
                 </Row>
             </div >
             <Link to="/service">
-                <Button variant="warning" >
+                <Button variant="warning my-2" >
                     See more
                 </Button>
             </Link>

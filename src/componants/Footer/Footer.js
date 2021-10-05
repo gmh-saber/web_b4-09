@@ -24,7 +24,7 @@ const Footer = () => {
 
                     </p>
 
-                    <p className="footer-company-name">Company Name © 2015</p>
+                    <p className="footer-company-name">Knowledge House © 2021</p>
                 </div>
 
                 <div className="footer-center">
@@ -48,9 +48,9 @@ const Footer = () => {
 
                 <div className="footer-right">
 
-                    <p className="footer-company-about">
+                    <p className="footer-company-about ">
                         <span>About Us</span>
-                        Over several months this past spring, national correspondent Beth Hawkins tracked the groundbreaking integration efforts of the 78207, the zip code located on the west side of San Antonio, Texas.
+                        <span>Knowledge House is a educational website. This is a online platform for all kinds of people around the globe.</span>
                     </p>
 
                     <div className="footer-icons">
