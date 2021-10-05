@@ -25,10 +25,10 @@ const Home = () => {
                         height="800px"
 
                     />
-                    <Carousel.Caption>
+                    {/* <Carousel.Caption>
                         <h3>First slide </h3>
                         <p>Our first slide.</p>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -39,10 +39,10 @@ const Home = () => {
                         height="800px"
                     />
 
-                    <Carousel.Caption>
+                    {/* <Carousel.Caption>
                         <h3>Second slide </h3>
                         <p>Our second slide.</p>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -53,10 +53,10 @@ const Home = () => {
                         height="800px"
                     />
 
-                    <Carousel.Caption>
+                    {/* <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>Our first slide.</p>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
 
 

@@ -16,8 +16,8 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand className="p-2" href="#home">Knowledge <span className="span">House</span> </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
+                    <Navbar.Collapse id="responsive-navbar-nav " className="justify-content-lg-end">
+                        <Nav>
 
                             <NavLink to="/home" className="p-2  "
                                 style={{
